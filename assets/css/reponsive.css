@@ -1,0 +1,1455 @@
+/* $desktop:1200px; col-xl */
+/* $laptop:992px;  lg */
+/* $tablet:768px; md */
+/* $phone:480px; sm  */
+
+/* @media screen and (max-width:1200px) and (min-width:$tablet){
+    
+} */
+
+
+@media screen and (max-width:768px) {
+    .nav-category  #menu{
+        position: absolute;
+        right: 35px;
+     } 
+ 
+     .header{
+       width: 100%;
+       height: 90px;
+     }
+
+    .logo{
+        position: absolute;
+        top:3%;
+        left: 30px;
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    .slider{
+        height: 57vh;
+    }
+
+    .control ul{
+        bottom: 380px;        
+    }
+
+    .discover{
+        top:87%;
+        left:31%;
+    }
+
+    .discover-2{
+        top: 87%;
+        left: 75%;
+    }
+
+    .discover-3{
+        top: 107%;
+        left: 30%;
+    }
+
+    .astro-collection{
+        padding-bottom: 20px;
+    }
+
+    .astro-collection p{
+        width: 514px;
+    }
+
+    .sport-wear{
+        background-color: #000;
+        width: 353px;
+        padding: 20px;
+    }
+
+    .exclusive-jackects{
+        background-color: #000;
+        width: 348px;
+        padding: 20px;
+    }
+
+
+    .funky{
+        background-color: #000;
+        width: 355px;
+        padding: 20px;
+        height: 278px;
+    }
+    
+
+    #sport-image img {
+        width: 152%;
+        height: 265px;
+    }
+
+    .jackects-image img{
+        width: 100%;
+        height:280px;
+    }
+
+   .funky-image img{
+    width: 100%;
+    height:280px;
+   }
+
+    .jackects-row{
+        grid-gap: 0px;
+    }
+
+    .sport-wear-row{
+        grid-gap:0px;
+    }
+    .sport-wear p,  .exclusive-jackects p{
+        font-size: 3vw;
+        color: #FFFFFF;
+        width: 319px;
+        padding-top:20px;
+    }
+
+    .sport-wear h3, .exclusive-jackects h3{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        /* identical to box height */
+        letter-spacing: 0.025em;
+        color: #FFFFFF;
+    }
+
+    .owl-nav span{
+        margin-left: 20px;
+    }
+
+    .newslatter h2{
+        font-size: 30px;
+        position: relative;
+        left: 70px;
+    }
+  
+    .newslatter p{
+        font-family: Futura Lt BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.025em;
+        width: 280px;
+        height: 66px;
+        color: #F1F1F1;
+        left: 10px;
+    }
+  
+  
+    
+  
+  
+    .subscribe{
+        width: 200px;
+        height: 35px;
+        left: 20px;
+    }
+
+    .input{
+        width: 140px;
+        height: 35px;
+        
+    }
+
+    form{
+        display: -moz-grid;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input[type="email"] {
+        position: relative;
+        bottom:0px;
+        right:50px;
+    }
+
+    input[type="text"] {
+        position: relative;
+        bottom:0px;
+        left: -57px;
+    }
+
+    #footer{
+        height:77vh;
+    }
+
+    .footer-about p{
+        font-size: 3vw;
+        width: 690px;
+        height: 50px;
+        font-family: Futura Lt BT;
+        font-style: normal;
+        font-weight: normal;
+        /* font-size: 13px; */
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .footer-logo {
+        left: 90%;
+    }
+
+    .footer-information h3{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight:bold;
+        width: 97px;
+        height: 22px;
+        position: relative;
+        left: 100px;
+
+    }
+
+    .footer ul{
+        display: -ms-grid;
+        display: -moz-grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        position: relative;
+        right:20px; 
+    }
+
+    .footer-information{
+        position: relative;
+        top: 19rem;
+        right:50%;
+    }
+
+    .footer-socials{
+        position: relative;
+        top: 21rem;
+        right:35%;
+    }
+
+    .footer-information ul li{
+        font-size: 12px;
+    }
+    
+    .footer-categories{
+        display: none;
+    }
+
+    .footer-socials h3{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight:bold;
+        width: 97px;
+        height: 22px;
+        position: relative;
+        left: 90px;
+    }
+
+    .footer-socials ul li{
+        font-size: 12px;
+        position: relative;
+        right:25px;
+    }
+
+    .copyright{
+        position: relative;
+        left: 16rem;
+        top: 30em;
+    }
+
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   
+  }
+
+
+
+
+  @media screen and (max-width:414px) {
+
+    .logo{
+        position: absolute;
+        top: 3%;
+        left: 35px;
+    }
+
+    .footer-logo{
+        text-align: center;
+    }
+
+    .logo img{
+       width: 50px;
+    }
+
+    .nav-category  #menu{
+        position: absolute;
+        right: 35px;
+     } 
+
+     .header{
+        width: 100%;
+        height: 74px;
+      }
+
+     .slider{
+         height: 35vh;
+     }
+     
+     .control ul{
+        bottom:405px;
+        left: 77%;  
+    }
+
+    .discover{
+        top: 80%;
+        left: 63%;
+    }
+
+    .discover-2{
+        top:116%;
+        left: 61%;
+    }
+
+    .discover-3{
+        top: 149%;
+        left: 61%;
+    }
+
+    #collection{
+        padding-bottom: 165px;
+    }
+
+    .astro-collection h2{
+        font-size: 39px;
+        line-height: 40px;
+    }
+
+    .astro-collection p{
+        font-size: 4vw;
+        width: 288px;
+    }
+
+    .sport-wear{
+        background-color: #000;
+        width: 190px;
+        padding: 20px;
+    }
+
+    #sport-image img{
+        height: 180px;
+        width: 194px;
+    }
+
+    .sport-wear p{
+        width: 142px;
+        color: #FFFFFF;
+        font-size: 3vw;
+        line-height: 19px;
+    }
+
+
+    .jackects-row{
+        grid-gap: 0px;
+    }
+
+    .sport-wear-row{
+        grid-gap:0px;
+    }
+
+    .jackects-image img{
+        width: 194px;
+        height: 204px;
+    }
+
+    .exclusive-jackects{
+        background-color: #000;
+        width: 194px;
+        padding: 20px;
+    }
+
+    .exclusive-jackects p{
+        font-size: 3vw;
+        color: #FFFFFF;
+    }
+
+    .funky-image img{
+        height: 279px;
+        width: 194px;
+        /* height: 180px;
+        width: 176px; */
+    }
+
+    .owl-theme .owl-nav{
+        left: 62%;
+        bottom: 92%;
+    }
+
+    form{
+        display: -moz-grid;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input[type="email"] {
+        position: relative;
+        bottom:0px;
+        right:20px;
+    }
+
+    input[type="text"] {
+        position: relative;
+        bottom:0px;
+        left: 4px;
+    }
+
+    .input{
+        width: 140px;
+        height: 35px;
+    }
+
+    .newslatter p{
+        position: relative;
+        left: 50px;
+    }
+
+    .subscribe{
+        position: relative;
+        left: 56px;
+    }
+
+    .footer-about p{
+        position: relative;
+        left: 20px;
+        /* width: 270px; */
+    }
+
+    #footer{
+        height:125vh;
+    }
+
+    .footer-categories{
+        position: relative;
+        left: 10%;
+    }
+
+    .footer-information{
+        position: relative;
+        left: 5%;
+        top: 80px;
+    }
+
+    .footer-socials{
+        position: relative;
+        left: 17%;
+        top: 184px;
+    }
+
+    .copyright{
+        position: relative;
+        left:67px;
+    }
+
+    .footer-logo{
+        left: -3%;
+    }
+
+
+
+}  
+
+
+
+@media screen and (max-width:414px) {
+    .logo{
+        position: absolute;
+        top: 4%;
+        left: 30px;
+    }
+
+    .footer-logo{
+        text-align: center;
+    }
+
+    .logo img{
+       width: 50px;
+    }
+
+    .nav-category  #menu{
+       position: absolute;
+       right: 35px;
+    } 
+
+    .header{
+      width: 100%;
+      height: 90px;
+    }
+
+    .astro-collection h2{
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+   } 
+ 
+   .astro-collection p{
+      font-size: 18px;
+      line-height: 22px;
+      width: 414px;
+      height: 143px;
+      left:0px;
+     text-align: center;
+   }
+ 
+ 
+   .astro-collection p{
+       padding: 0px 30px 0px 30px;
+   }
+ 
+   #collection{
+      padding-bottom: 180px;
+   }
+
+   .discover{
+      top: 96%;
+      left: 65%;
+  }
+
+  .discover-2{
+      top:132vh;
+      left: 63%;
+  }
+
+  .discover-3{
+      top: 162vh;
+      left:63%;
+  }
+
+  .edge h5{
+      font-size:1.5em;
+  }
+
+  .sport-wear{
+      background-color: #000;
+      width: 193px;
+      padding: 20px;
+  }
+
+  .exclusive-jackects{
+      background-color: #000;
+      width: 170px;
+      padding: 20px;
+  }
+  
+
+  #sport-image img {
+      width: 152%;
+      height: 176px;
+  }
+
+  .jackects-image img{
+      width: 100%;
+      height:226px;
+  }
+
+  .jackects-row{
+      grid-gap: 0px;
+  }
+
+  .sport-wear-row{
+      grid-gap:0px;
+  }
+
+  .sport-wear p,  .exclusive-jackects p{
+      font-size: 3vw;
+      color: #FFFFFF;
+      width: 126px;
+  }
+
+  .slider{
+      height: 50vh;
+  }
+  
+  .control ul{
+      bottom: 291px;
+      left: 82%;
+  }
+
+  .owl-theme .owl-nav {
+      position: absolute;
+      bottom:300px;
+      left: 240px;
+
+  }    
+
+  .owl-nav span{
+      font-size: 35px;
+      margin-left: 15px;
+  }
+
+  .input{
+      width: 140px;
+      height: 35px;
+      
+  }
+
+  form{
+      display: -moz-grid;
+      display: -ms-grid;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  input[type="email"] {
+      position: relative;
+      bottom:0px;
+      right:17px;
+  }
+
+  input[type="text"] {
+      position: relative;
+      bottom:0px;
+      left: 0px;
+  }
+
+  .sport-wear h3, .exclusive-jackects h3{
+      font-family: Futura;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      /* identical to box height */
+      letter-spacing: 0.025em;
+      color: #FFFFFF;
+  }
+
+
+
+  .newslatter h2{
+      font-family: Futura;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.025em;
+      color: #F1F1F1;
+      position: relative;
+      left: 140px;
+  }
+
+  .newslatter p{
+      font-family: Futura Lt BT;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 0.025em;
+      width: 280px;
+      height: 66px;
+      color: #F1F1F1;
+      left: 53px;
+  }
+
+
+  
+
+
+  .subscribe{
+      width: 200px;
+      height: 35px;
+      left: 61px;
+  }
+
+
+  #footer{
+      height:95vh;
+  }
+
+  .footer-about p{
+      font-size: 4vw;
+      width: 360px;
+      height: 96px;
+      font-family: Futura Lt BT;
+      font-style: normal;
+      font-weight: normal;
+      /* font-size: 13px; */
+      line-height: 16px;
+      text-align: center;
+      color: #FFFFFF;
+  }
+
+  .footer-information h3{
+      font-size: 18px;
+      line-height: 22px;
+      font-weight:bold;
+      width: 97px;
+      height: 22px;
+      position: relative;
+      left: 114px;
+
+  }
+
+  .footer ul{
+      display: -ms-grid;
+      display: -moz-grid;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      position: relative;
+      right:20px; 
+  }
+
+  .footer-information ul li{
+      font-size: 12px;
+  }
+  
+  .footer-categories{
+      display: none;
+  }
+
+  .footer-socials h3{
+      font-size: 18px;
+      line-height: 22px;
+      font-weight:bold;
+      width: 97px;
+      height: 22px;
+      position: relative;
+      left: 90px;
+  }
+
+  .footer-socials ul li{
+      font-size: 12px;
+      position: relative;
+      right:25px;
+  }
+
+  .copyright{
+      position: relative;
+      left: 26%;
+      top: 210px;
+  }
+
+
+  /* Category media queries */
+  .hero{
+      height: 29.99vh;
+  }
+
+
+  .hero-text{
+      left: 0;
+      top: 34px;
+  }
+
+  .hero-text h3{
+      font-size: 9vw;
+  }
+
+  .hero-text blockquote{
+      left: 17%;
+      top: 55px;
+  }
+
+  .hero-text blockquote .breadcrumb-item{
+      font-size:4vw;
+  }
+
+  .category-row{
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0px;
+  }
+
+}
+
+
+@media screen and (max-width:411.4px) {
+
+    .hero{
+        height:32vh;
+    }
+
+
+}  
+
+
+@media screen and (max-width:411px) {
+    .hero{
+        height:28vh;
+    }
+
+    .footer-socials{
+        left: 17%;
+    }
+    
+    .copyright {
+        top: 240px;
+    }
+
+    #footer{
+        height: 86vh;
+    }
+    .footer-about p{
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:390px) {
+
+    .logo{
+        top: 3%;
+    }
+
+    .slider {
+        height: 27vh;
+    }
+
+    .control ul {
+        bottom: 530px;
+        left: 82%;
+    }
+
+    .discover {
+        top: 66%;
+        left: 61%;
+    }
+
+    .discover-2 {
+        top: 96vh;
+        left: 59%;
+    }
+
+    .discover-3 {
+        top: 121vh;
+        left: 61%;
+    }
+
+    .astro-collection p{
+        width: 384px;
+        font-size: 15px;
+    }
+
+    .sport-wear{
+        width: 183px;
+    }
+
+    .sport-wear p{
+        width:144px ;
+        font-size: 3vw;
+    }
+
+    .owl-theme .owl-nav{
+        bottom: 330px;
+        left: 304px;
+    }
+
+    .exclusive-jackects{
+        width: 187px;
+        height: 226px;
+    }
+
+    .exclusive-jackects p {
+        font-size: 3vw;
+        color: #FFFFFF;
+        width: 126px;
+    }
+
+    .funky{
+        height: 200px;
+    }
+
+    .funky-image img{
+        height: 200px;
+    }
+
+    .newslatter h2{
+        position: relative;
+        left: 0px;
+    }
+
+    .newslatter p{
+        left: 45px;
+    }
+
+    input[type="email"]{
+        right: 47px;
+    }
+
+    input[type="text"]{
+        left: -2px;
+    }
+
+    .subscribe{
+        left: 46px;
+    }
+
+    .footer-logo{
+        left: 2%;
+    }
+
+    .footer-about p{
+        width: 330px;
+    }
+}
+
+  @media screen and (max-width:376.98px) {
+
+    .hero{
+        height:32vh;
+    }
+
+    .logo{
+        position: absolute;
+        top: 3%;
+        left: 35px;
+    }
+
+    .footer-logo{
+        text-align: center;
+    }
+
+    .logo img{
+       width: 50px;
+    }
+
+    .nav-category  #menu{
+        position: absolute;
+        right: 35px;
+     } 
+
+     .header{
+        width: 100%;
+        height: 74px;
+      }
+    
+    .slider{
+        height: 35vh;
+    }
+
+    .control ul{
+        bottom: 462px;
+        left: 77%;  
+    }
+
+    .discover-2{
+        top: 101%;
+        left: 56%; 
+    }
+
+    .discover{
+        top: 80%;
+        left: 58%;
+    }
+     
+    .discover-3{
+        top: 127%;
+        left: 57%;
+    }
+
+    .astro-collection p{
+        font-size: 4vw;
+        width: 294px;
+    }
+
+    .astro-collection h2{
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    #collection{
+        padding-bottom: 170px;
+    }
+
+    .sport-wear{
+        background-color: #000;
+        width: 170px;
+        padding: 20px;
+    }
+
+    #sport-image img{
+        height: 180px;
+        width: 176px;
+    }
+
+    .sport-wear p{
+        width: 142px;
+        color: #FFFFFF;
+        font-size: 3vw;
+    }
+    
+    .jackects-image img{
+        width: 175px;
+        height: 194px;
+    }
+
+    .jackects-row{
+        grid-gap: 0px;
+    }
+
+    .sport-wear-row{
+        grid-gap:0px;
+    }
+
+    .exclusive-jackects{
+        background-color: #000;
+        width: 170px;
+        padding: 20px;
+    }
+
+    .exclusive-jackects p{
+        font-size: 3vw;
+        color: #FFFFFF;
+    }
+
+    .funky-image img{
+        height: 175px;
+        width: 176px;
+        /* height: 180px;
+        width: 176px; */
+    }
+
+    .owl-theme .owl-nav{
+        left: 62%;
+        bottom: 92%;
+    }
+
+
+
+    form{
+        display: -moz-grid;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input[type="email"] {
+        position: relative;
+        bottom:0px;
+        right:45px;
+    }
+
+    input[type="text"] {
+        position: relative;
+        bottom:0px;
+        right: 4px;
+    }
+
+    .input{
+        width: 140px;
+        height: 35px;
+    }
+
+    .newslatter p{
+        position: relative;
+        left: 50px;
+    }
+
+    .subscribe{
+        position: relative;
+        left: 45px;
+    }
+
+    .footer-about p{
+        position: relative;
+        left: 20px;
+        width:300px;
+        line-height: 25px;
+    }
+
+    #footer{
+        height: 85vh;
+    }
+
+    .footer-categories{
+        position: relative;
+        left: 10%;
+    }
+
+    .footer-socials{
+        position: relative;
+        left: 14%;
+    }
+
+    .copyright{
+        position: relative;
+        left:80px;
+    }
+  }
+  
+  @media screen and (max-width:375px) {
+    .control ul{
+        bottom:361px;
+        left: 80%;  
+    }
+
+    .astro-collection p{
+        width: 369px;
+    }
+
+    .owl-theme .owl-nav {
+        left: 77%;
+       bottom: 98%;
+    }
+
+    .jackects-image img{
+        height: 225px;
+    }
+
+    .funky-image img{
+        height: 200px;
+    }
+
+    .hero{
+        height: 32vh;
+    }
+
+    #footer{
+        height:105vh;
+    }
+
+    .newslatter h2{
+        left: 120px;
+    }
+
+    .newslatter p{
+        left: 37px;
+    }
+    
+    input[type=email]{
+        right:55px;
+    }
+
+}
+
+
+  @media screen and (max-width:320px) {
+
+
+      .logo{
+          position: absolute;
+          top: 6%;
+          left: 30px;
+      }
+
+      .footer-logo{
+          text-align: center;
+      }
+  
+      .logo img{
+         width: 50px;
+      }
+  
+      .nav-category  #menu{
+         position: absolute;
+         right: 35px;
+      } 
+  
+      .header{
+        width: 100%;
+        height: 90px;
+      }
+
+      .astro-collection h2{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+     } 
+   
+     .astro-collection p{
+        font-size: 18px;
+        line-height: 22px;
+        width: 312px;
+        height: 143px;
+        left:0px;
+       text-align: center;
+     }
+   
+   
+     .astro-collection p{
+         padding: 0px 30px 0px 30px;
+     }
+   
+     #collection{
+        padding-bottom: 180px;
+     }
+
+     .discover{
+        top: 101%;
+        left: 56%;
+    }
+  
+    .discover-2{
+        top:136vh;
+        left:55%;
+    }
+  
+    .discover-3{
+        top: 168vh;
+        left: 55%;
+    }
+  
+    .edge h5{
+        font-size:1.5em;
+    }
+
+    .sport-wear{
+        background-color: #000;
+        width: 170px;
+        padding: 20px;
+    }
+
+    .exclusive-jackects{
+        background-color: #000;
+        width: 170px;
+        padding: 20px;
+    }
+    
+
+    #sport-image img {
+        width: 152%;
+        height: 176px;
+    }
+
+    .jackects-image img{
+        width: 100%;
+        height:226px;
+    }
+
+    .jackects-row{
+        grid-gap: 0px;
+    }
+
+    .sport-wear-row{
+        grid-gap:0px;
+    }
+
+    .sport-wear p,  .exclusive-jackects p{
+        font-size: 4vw;
+        color: #FFFFFF;
+        width: 134px;
+    }
+
+    
+
+    .slider{
+        height: 50vh;
+    }
+    
+    .control ul{
+        bottom: 198px;
+        left: 80%;
+    }
+
+    .owl-theme .owl-nav {
+        position: absolute;
+        bottom:300px;
+        left: 240px;
+  
+    }    
+  
+    .owl-nav span{
+        font-size: 35px;
+        margin-left: 15px;
+    }
+
+    .input{
+        width: 140px;
+        height: 35px;
+        
+    }
+
+    form{
+        display: -moz-grid;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input[type="email"] {
+        position: relative;
+        bottom:0px;
+        right:80px;
+    }
+
+    input[type="text"] {
+        position: relative;
+        bottom:0px;
+        left: -36px;
+    }
+
+    .sport-wear h3, .exclusive-jackects h3{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height */
+        letter-spacing: 0.025em;
+        color: #FFFFFF;
+    }
+  
+
+  
+    .newslatter h2{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+  
+        text-align: center;
+        letter-spacing: 0.025em;
+        left: 10px;
+        color: #F1F1F1;
+    }
+  
+    .newslatter p{
+        font-family: Futura Lt BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.025em;
+        width: 280px;
+        height: 66px;
+        color: #F1F1F1;
+        left: 10px;
+    }
+  
+  
+    
+  
+  
+    .subscribe{
+        width: 200px;
+        height: 35px;
+        left: 20px;
+    }
+
+
+    #footer{
+        height:124vh;
+    }
+
+    .footer-about p{
+        font-size: 4vw;
+        width: 258px;
+        height: 96px;
+        font-family: Futura Lt BT;
+        font-style: normal;
+        font-weight: normal;
+        /* font-size: 13px; */
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .footer-information h3{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight:bold;
+        width: 97px;
+        height: 22px;
+        position: relative;
+        left: 90px;
+
+    }
+
+    .footer ul{
+        display: -ms-grid;
+        display: -moz-grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        position: relative;
+        right:20px; 
+    }
+
+    .footer-information ul li{
+        font-size: 12px;
+    }
+    
+    .footer-categories{
+        display: none;
+    }
+
+    .footer-socials h3{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight:bold;
+        width: 97px;
+        height: 22px;
+        position: relative;
+        left: 90px;
+    }
+
+    .footer-socials ul li{
+        font-size: 12px;
+        position: relative;
+        right:25px;
+    }
+
+    .copyright{
+        position: relative;
+        left: 20%;
+    }
+
+
+    /* Category media queries */
+    .hero{
+        height: 32vh;
+    }
+
+
+    .hero-text{
+        left: 0;
+        top: 34px;
+    }
+
+    .hero-text h3{
+        font-size: 9vw;
+    }
+
+    .hero-text blockquote{
+        left: 17%;
+        top: 55px;
+    }
+
+    .hero-text blockquote .breadcrumb-item{
+        font-size:4vw;
+    }
+
+    .category-row{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px;
+    }
+
+    /* .category img{
+        width: 165px;
+height: 174.36px;
+    } */
+   
+
+    
+ 
+  }
+  
+
+  
+  
+  
+ 

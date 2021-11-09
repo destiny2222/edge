@@ -1,0 +1,707 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  :root{
+
+  }
+
+  
+
+  /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 70px; /* Stay at the top */
+  left: 0;
+  background: #E5E5E5; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+section{
+  overflow: hidden;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  /* font-size: 25px; */
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav ul{
+   display: flex;
+   list-style: none;
+}
+
+.sidenav ul li{
+   padding: 10px  15px;
+}
+
+.sidenav h3{
+   position: relative;
+   left: 6%;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #292828;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+  
+  
+  .slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .slide.current {
+    opacity: 1;
+  }
+  
+  .slide .content {
+    position: absolute;
+    bottom:200px;
+    left: -500px;
+    opacity: 0;
+    width: 600px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    color: #fff;
+    padding: 35px;
+  }
+  
+  .slide .content h1 {
+    margin-bottom: 10px;
+  }
+  
+  .slide.current .content {
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 0.7s ease-in-out 0.3s;
+  }
+  
+  .buttons button#next {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+  }
+  
+  .buttons button#prev {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+  }
+  
+  .buttons button {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 5px;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  .buttons button:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  @media (max-width: 500px) {
+    .slide .content {
+      bottom: -300px;
+      left: 0;
+      width: 100%;
+    }
+  
+    .slide.current .content {
+      transform: translateY(-300px);
+    }
+
+    .discover-2{
+        top: 188%;
+    }
+    .discover-3{
+        top: 228%;
+        left: 50%;
+    }
+  }
+  
+  
+  
+  /* Backgorund Images */
+   
+  .slide:first-child {
+    background: url('../img/background.png') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(2) {
+    background: url('../img/hol.png') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(3) {
+    background: url('../img/holl.png') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(3) {
+    background: url('../img/edge.png') no-repeat
+      center top/cover;
+  }
+
+.edge{
+    padding: 10em;
+}
+
+.edge h5{
+   font-size: 3em;
+   line-height: 1.3em;
+}
+
+.discover{
+    position: absolute;
+    top:143%;
+    left: 25%;
+}
+
+
+.discover-2{
+    position: absolute;
+    top:143%;
+    left: 51%;
+}
+.discover-3{
+    position: absolute;
+    top:143%;
+    left:80%;
+}
+
+#collection{
+  background: #E5E5E5;
+  padding-top: 70px;
+  padding-bottom: 130px;
+}
+
+
+
+
+.astro-collection{
+    padding-top: 50px;
+}
+
+.astro-collection h2{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #0F0F0F;
+}
+
+section{
+  overflow: hidden;
+}
+
+
+.astro-collection p{
+    font-family: Futura Lt BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    width: 877px;
+    height: 87px;
+    letter-spacing: 0.025em;
+    color: #0F0F0F;
+    position:absolute;
+    left: 15%;
+}
+
+
+
+
+
+#sport-wear{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+section{
+  overflow: hidden;
+}
+
+
+header{
+  overflow: hidden;
+}
+
+
+.sport-wear h3{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.025em;
+  color: #0F0F0F;
+}
+
+
+.sport-wear p{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.025em;
+  color: #0F0F0F;
+  width: 510px;
+  height: 87px;
+}
+
+
+.product-name h4{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #0F0F0F;
+  width: 343px;
+height: 32px;
+}
+
+
+.product-price p{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.025em;
+  color: #0F0F0F;
+  width: 343px;
+height: 29px;
+}
+
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 95%;
+  left:85%;
+
+}
+
+
+.owl-nav span{
+  font-size: 70px;
+  margin-left: 35px;
+}
+
+
+
+#newslatter{
+  background: #131313;
+  /* height: 70vh; */
+}
+
+.newslatter{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+.newslatter h2{
+  font-family: Futura;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 85px;
+letter-spacing: 0.025em;
+color: #F1F1F1;
+}
+
+
+.newslatter p{
+  font-family: Futura Lt BT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 0.025em;
+width: 532px;
+height: 129px;
+color: #F1F1F1;
+}
+
+
+.input{
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 431px;
+  height: 55px;
+}
+
+.subscribe{
+  font-family: Futura Md BT;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+width: 431px;
+height: 55px;
+/* identical to box height */
+
+letter-spacing: 0.025em;
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+.instagram h2{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.025em;
+  width: 510px;
+  color: #0F0F0F;
+}
+
+
+.instagram p{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.025em;
+  color: #0F0F0F;
+}
+
+
+/* footer style */
+
+#footer{
+  background: #131313;
+  padding-top:100px;
+  height:75vh;
+  overflow: hidden;
+}
+
+.footer-logo{
+  position: relative;
+  bottom: 35px;
+}
+
+.footer-about p{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  width: 322px;
+  height: 64px;
+  color: #FFFFFF;
+}
+
+.footer-information h3{
+  position: relative;
+  left: 9%;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.footer-categories h3{
+  position: relative;
+  left: 9%;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.footer-socials h3{
+  position: relative;
+  left: 9%;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.footer-categories ul{
+  list-style: none;
+}
+.footer-socials ul{
+  list-style: none;
+}
+
+
+.footer-categories ul li{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.footer-socials ul li{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+
+.footer-information ul{
+  list-style: none;
+}
+
+.footer ul li{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: #FFFFFF;
+  /* position: relative; */
+  
+}
+
+
+.footer h3{
+   position: relative;
+   left: 30px;
+}
+
+
+.copyright {
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+  position: absolute;
+  left: 45%;
+  padding-top:7%;
+}
+
+
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 84%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.control ul li {
+  width: 10px;
+  height: 10px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: transparent;
+}
+
+
+
+.nav-category a{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.025em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 20px;
+  position: relative;
+  top: 5px;
+}
+
+
+.nav-category i{
+  cursor: pointer;
+}
+
+
+.sport-wear-row{
+  display: -moz-grid;
+  display:-ms-grid;
+  display: grid;
+  grid-gap:40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.jackects-row {
+  display: -moz-grid;
+  display:-ms-grid;
+  display: grid;
+  grid-gap:40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.instagram-row{
+  display: -moz-grid;
+  display:-ms-grid;
+  display: grid;
+  grid-gap:20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+/* category style  */
+
+.hero{
+  height:110vh; 
+  width: 100% !important;
+  background-size:cover !important; 
+  background-repeat:no-repeat !important; 
+  background-position:center !important;
+  background-blend-mode: overlay !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  background: url(../img/category/hero.png);
+}
+
+.hero-text{
+  position: relative;
+  top:210px;
+  left:0%;
+}
+
+.hero-text blockquote{
+  position: absolute;
+  left:40%;
+}
+
+
+.hero-text blockquote .breadcrumb-item {
+  font-family: Futura Lt BT;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.hero-text h3{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #FFFFFF;
+}
+.category-button{
+  text-align: center;
+}
+.category-button a{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: px;
+  line-height: 40px;
+  letter-spacing: 0.025em;
+  color: #FFFFFF;
+   padding:5px 50px ;
+}
+
+
+.category-row{
+  display: -moz-grid;
+  display:-ms-grid;
+  display: grid;
+  grid-gap:20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* margin: 3%  5%; */
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+/* Course Filter */
