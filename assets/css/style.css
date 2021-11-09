@@ -4,6 +4,10 @@
     padding: 0;
   }
 
+body{
+  background-color: #E5E5E5;
+}
+
 
   :root{
 
@@ -705,3 +709,333 @@ color: #FFFFFF;
   align-items: center !important;
 }
 /* Course Filter */
+
+
+
+
+/* product styling  */
+
+.product-Premium{
+  padding-bottom:10%;
+}
+
+.column{
+  padding-top: 80px;
+
+} 
+
+.column-2{
+  width: 475px;
+  height: 550px;
+  position: absolute;
+  top: 27%;
+  background-color: #FFFFFF;
+  border-radius: 0.25rem;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+
+.column-2 h1{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.column-2 h3{
+  font-family: Futura Bk BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #131313;
+}
+
+
+.column-2 h6{
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6B7280;
+}
+
+.column-2 p{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  width: 283px;
+  height: 57px;
+  color: #131313;
+}
+
+.column-2  .colors p{
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6B7280;
+}
+
+.box-1{
+  position: absolute;
+  width: 24px;
+  bottom: 270px;
+  height: 24px;
+  background: #131313;
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.box-2{
+  position: absolute;
+  left: 17%;
+  width: 24px;
+  bottom: 270px;
+  height: 24px;
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+  background: #EB5757;
+  border-radius: 8px;
+}
+.box-3{
+  position: absolute;
+  left: 24%;
+  width: 24px;
+  bottom: 270px;
+  height: 24px;
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+  background: #F2C94C;
+  border-radius: 8px;
+}
+.box-4{
+  position: absolute;
+  left:31%;
+  width: 24px;
+  bottom: 270px;
+  height: 24px;
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+  background: #219653;
+  border-radius: 8px;
+}
+
+.box-5{
+  position: absolute;
+  left:38%;
+  width: 24px;
+  bottom: 270px;
+  height: 24px;
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+  background: #F2994A;
+  border-radius: 8px;
+}
+.box-6{
+  position: absolute;
+  left:45%;
+  width: 24px;
+  bottom: 270px;
+  height: 24px;
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+  background: #000000;
+  border-radius: 8px;
+}
+
+
+
+.size p{
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6B7280;
+}
+
+.size-1{
+  position: absolute;
+  bottom: 200px;
+  background: rgba(3, 83, 164, 0.05);
+  border-radius: 5px;
+  width: 27.62px;
+  height: 26px;
+}
+
+.size-1 {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height:30px;
+  color: #0A0A0A;
+  text-decoration: none;
+  text-align: center;
+}
+.size-2{
+  position: absolute;
+  bottom: 200px;
+  background: rgba(3, 83, 164, 0.05);
+  border-radius: 5px;
+  width: 27.62px;
+  height: 26px;
+  left:20%;
+}
+
+.size-2 {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height:30px;
+  color: #0A0A0A;
+  text-decoration: none;
+  text-align: center;
+}
+.size-3{
+  position: absolute;
+  bottom: 200px;
+  background: rgba(3, 83, 164, 0.05);
+  border-radius: 5px;
+  width: 27.62px;
+  height: 26px;
+  left: 30%;
+}
+
+.size-3 {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height:30px;
+  color: #0A0A0A;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-product{
+  background: #131313;
+  width: 338px;
+  height: 45px;
+  position: absolute;
+  bottom: 50px;
+}
+
+#featured{
+	max-width: 500px;
+	max-height: 600px;
+	object-fit: cover;
+	cursor: pointer;
+	/* border: 2px solid black; */
+
+}
+
+.thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid black;
+
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active{
+	opacity: 1;
+}
+
+#slide-wrapper{
+	max-width: 500px;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+}
+
+#slider{
+	width: 440px;
+	display: flex;
+	flex-wrap: nowrap;
+	/* overflow-x: auto; */
+
+}
+
+#slider::-webkit-scrollbar {
+		width: 8px;
+
+}
+
+#slider::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+ 
+#slider::-webkit-scrollbar-thumb {
+  background-color: #dede2e;
+  outline: 1px solid slategrey;
+   border-radius: 100px;
+
+}
+
+#slider::-webkit-scrollbar-thumb:hover{
+    background-color: #18b5ce;
+}
+
+.arrow{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.arrow:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}
+
+
+.product-type{
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  
+  color: #0F0F0F;
+}
+.product-price{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.025em;
+  color: #0F0F0F;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.product-items{
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #131313;
+}
