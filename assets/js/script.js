@@ -55,54 +55,8 @@ indicators.forEach((indicator, i) => {
   });
 });
 
-// left.addEventListener('click', function() {
-//   index = (index > 0) ? index -1 : 0;
-//   document.querySelector('.control .selected').classList.remove('selected');
-//   indicatorParent.children[index].classList.add('selected');
-//   slides.style.transform = 'translateX(' + (index) * -25 + '%)';
-// });
-
-
-// Button events
-next.addEventListener('click', e => {
-  nextSlide();
-  if (auto) {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-});
-
-prev.addEventListener('click', e => {
-  prevSlide();
-  if (auto) {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-});
-
 // Auto slide
 if (auto) {
   // Run next slide at interval time
   slideInterval = setInterval(nextSlide, intervalTime);
 };
-
-
-
-
-
-
-/* Open the sidenav */
-function openNav() {
-  document.getElementById("mySidenav").style.width = "100%";
-  document.getElementById("remove").style.display = "none";
-  document.getElementById("remover").style.display = "none";
-  document.getElementById("remo").style.display = "none";
-}
-
-/* Close/hide the sidenav */
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("remove").style.display = "block";
-  document.getElementById("remover").style.display = "block";
-  document.getElementById("remo").style.display = "block";
-}

@@ -4,29 +4,77 @@
     padding: 0;
   }
 
-body{
-  background-color: #E5E5E5;
+
+.header{
+  background: #000000;
+  /* padding: 0px 0px; */
+}
+
+.mobile-navigation{
+  display: none;
+}
+
+#remove{
+  position: relative;
+  bottom: 15px;
+  padding: 0px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.desktop-toggle  .bar{
+  position: relative;
+  top: 10px;
+  right: 55%;
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+  transform: translate(5%, 20%);
+}
+
+.desktop-toggle .bar{
+  width: 25px;
+  height: 2px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color:#fff;
+}
+
+.desktop-toggle.is-active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.desktop-toggle.is-active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.desktop-toggle.is-active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 
-  :root{
-
-  }
-
+.sidenav.active{
+  transition: all 0.5s ease;
+  opacity: 1;
+  left: 0;
+  display: block;
+}
   
 
   /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: absolute; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 70px; /* Stay at the top */
   left: 0;
+  display:none ;
   background: #E5E5E5; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.5s;
+ 
 }
 
 
@@ -34,14 +82,22 @@ section{
   overflow: hidden;
 }
 
+.img-thumbnail{
+  background-color: transparent;
+}  
+
 /* The navigation menu links */
-.sidenav a {
+.sidenav ul li a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  /* font-size: 25px; */
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+  position: relative;
+  left: 30px;
+  font-family: Futura Bk BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .sidenav ul{
@@ -49,13 +105,24 @@ section{
    list-style: none;
 }
 
-.sidenav ul li{
-   padding: 10px  15px;
+.menu-toggle .bar{
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   transition: all 0.3s ease-in-out;
+   background-color:#fff;
 }
+
 
 .sidenav h3{
    position: relative;
    left: 6%;
+   font-family: Futura;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 48px;
+   color: #000000;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -64,12 +131,14 @@ section{
 }
 
 /* Position and style the close button (top right corner) */
-.sidenav .closebtn {
+ #closebtn {
   position: absolute;
-  top: 0px;
+  top: 15px;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  color: #000;
+  cursor: pointer;
 }
 
 
@@ -255,7 +324,7 @@ section{
     letter-spacing: 0.025em;
     color: #0F0F0F;
     position:absolute;
-    left: 15%;
+    left: 18%;
 }
 
 

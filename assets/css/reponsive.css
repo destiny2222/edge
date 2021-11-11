@@ -1126,10 +1126,115 @@
 }
 
 @media screen and (max-width:390px) {
+   
+    .mobile {
+        align-items: flex-start;    
+        transition: all 0.5s ease;
+        left:-100%;
+        position: absolute;
+        top:10%;
+        margin: 0;
+        opacity: 0;
+        z-index: 9999;
+        background-color:#E5E5E5;  
+        width: 100%;
+        text-align: -webkit-center;
+        padding-top: 10%;
+      }
+
+      .mobile-navigation{
+        display: block;
+      }
+
+      .mobile ul{
+          list-style: none;
+          display: flex;
+      }
+
+      .mobile ul li a{
+        font-family: Futura Bk BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        color: #000000;
+        padding: 0px 5px;
+        position: relative;
+        right:8px;
+      }
+      
+      .mobile .article{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        position: relative;
+        right:-29px;
+    }
+
+
+
+    .socials{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        position: relative;
+        right:-28px;
+    }
+
+
+    
+   
+      
+
+    
+      .mobile.active{
+        transition: all 0.5s ease;
+        opacity: 1;
+        left: 0;
+      }
+    
+    
+    
+    
+      .menu-toggle .bar{
+        position: relative;
+        top: 5px;
+        right: 45%;
+        display: block;
+        cursor: pointer;
+        transform: translate(5%, 20%);
+        
+      }
+    
+      .menu-toggle:hover{
+        cursor: pointer;
+      }
+    
+      .menu-toggle.is-active .bar:nth-child(2){
+        opacity: 0;
+      }
+    
+      .menu-toggle.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+    
+      .menu-toggle.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
 
     .logo{
         top: 3%;
+        left: 83%;
     }
+
+    
 
     .slider {
         height: 27vh;
@@ -1601,12 +1706,115 @@
 
 
   @media screen and (max-width:320px) {
+    .mobile {
+        align-items: flex-start;    
+        transition: all 0.5s ease;
+        left:-100%;
+        position: absolute;
+        top:20%;
+        margin: 0;
+        opacity: 0;
+        z-index: 9999;
+        background-color:#E5E5E5;  
+        width: 100%;
+        text-align: -webkit-center;
+        padding-top: 10%;
+      }
 
+      .mobile-navigation{
+        display: block;
+      }
+
+      .mobile ul{
+          list-style: none;
+          display: flex;
+      }
+
+      .mobile ul li a{
+        font-family: Futura Bk BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        color: #000000;
+        padding: 0px 5px;
+        position: relative;
+        right:8px;
+      }
+      
+      .mobile .article{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        position: relative;
+        right:27%;
+    }
+
+
+
+    .socials{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        position: relative;
+        right:30%;
+    }
+
+
+    
+   
+      
+
+    
+      .mobile.active{
+        transition: all 0.5s ease;
+        opacity: 1;
+        left: 0;
+      }
+    
+    
+    
+    
+      .menu-toggle .bar{
+        position: relative;
+        top: 5px;
+        right: 45%;
+        display: block;
+        cursor: pointer;
+        transform: translate(5%, 20%);
+        
+      }
+    
+      .menu-toggle:hover{
+        cursor: pointer;
+      }
+    
+      .menu-toggle.is-active .bar:nth-child(2){
+        opacity: 0;
+      }
+    
+      .menu-toggle.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+    
+      .menu-toggle.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    .sidenav ul{
+        display: inline-table;
+    }
 
       .logo{
           position: absolute;
           top: 6%;
-          left: 30px;
+          left: 80%;
       }
 
       .footer-logo{
